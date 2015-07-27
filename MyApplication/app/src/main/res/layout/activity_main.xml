@@ -1,0 +1,116 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:id="@+id/portfolioTitle">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="My Nanodegree Apps"
+                android:id="@+id/textView2"
+                android:layout_column="10"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginTop="20dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spotify Streamer"
+                android:id="@+id/buttonSpotify"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffffb537" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scores App"
+                android:id="@+id/buttonScores"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffffb537" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Library App"
+                android:id="@+id/buttonLibrary"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffffb537" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Build It Bigger"
+                android:id="@+id/buttonBuild"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffffb537" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XYZ Reader"
+                android:id="@+id/buttonXYZ"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffffb537" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capstone: My Own App"
+                android:id="@+id/buttonCapstone"
+                android:layout_column="10"
+                android:onClick="toastMe"
+                android:background="#ffff2d19" />
+        </TableRow>
+
+
+</TableLayout>
